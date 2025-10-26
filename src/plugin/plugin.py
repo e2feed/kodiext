@@ -134,7 +134,7 @@ class SetResolution:
 		if MACHINEBRAND in ("Vu+", "Formuler"):
 			resolutions = ("720i", "720p", "1080i", "1080p", "2160p", "2160p30")
 		else:
-			resolutions = ("720i", "720p", "1080i", "1080p", "2160p", "2160p30")
+			resolutions = ("720i", "720p", "1080i", "1080p", "2160p", "2160p30", "2160p60")
 			rates = ("24Hz", "30Hz", "50Hz", "60Hz")
 			for res in resolutions:
 				for rate in rates:
